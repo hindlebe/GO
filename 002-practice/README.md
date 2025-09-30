@@ -1,7 +1,7 @@
 ## Практическое занятие №2 Структура Go-проекта
 
 ### 1. Структура проекта
-
+```
 002-practice/
 ├── bin/
 │   └── myapp                 # Собранный бинарник
@@ -20,6 +20,7 @@
 photos/                       # Директория для фото
 └── ...                       # Файлы фото
 └── README.md                 # Документация
+```
 
 ### Как запустить
 
@@ -68,7 +69,7 @@ bash
     [internal/app/handlers/ping.go](./internal/app/handlers/ping.go)
 
     - Подправлена регистрация app.go
-    [internal/app.go](./interal/app.go)
+    [internal/app/app.go](./interal/app/app.go)
 
     ![app.go/exC](./photos/exC.png)
 
