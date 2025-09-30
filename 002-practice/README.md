@@ -69,7 +69,7 @@ bash
     [internal/app/handlers/ping.go](./internal/app/handlers/ping.go)
 
     - Подправлена регистрация app.go
-    [internal/app/app.go](./interal/app/app.go)
+    [internal/app/app.go](./internal/app/app.go)
 
     ![app.go/exC](./photos/exC.png)
 
