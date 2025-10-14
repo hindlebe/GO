@@ -135,23 +135,23 @@ func httpError(w http.ResponseWriter, code int, msg string) {
 
 ### 4. Результаты тестирования
 
-- ` curl -Method POST -Uri "http://localhost:8080/api/tasks" -Headers @{"Content-Type"="application/json"} -Body '{"title":"Выучить chi"}'`
+- ` curl -Method POST -Uri "http://localhost:8080/api/tasks" -Headers @{"Content-Type"="application/json"} -Body '{"title":"Выучить chi"}'` тестирование создания задачи
 
 ![CRUD CREATE](./photos/СRUD_create.png)
 
-- `curl -Method GET -Uri "http://localhost:8080/api/tasks"`
+- `curl -Method GET -Uri "http://localhost:8080/api/tasks"` тестирование получения данных 
 
-![CRUD LIST](./photos/CRUD_list.png)
+![CRUD LIST](./photos/CRUD_list.png) 
 
-- ` curl -Method GET -Uri "http://localhost:8080/api/tasks/1"`
+- ` curl -Method GET -Uri "http://localhost:8080/api/tasks/1"` тестирование получения данных по ID
 
 ![CRUD ID](./photos/CRUD_ID.png)
 
-- ` curl -Method PUT -Uri "http://localhost:8080/api/tasks/1" -Headers @{"Content-Type"="application/json"} -Body '{"title":"Выучить chi глубже","done":true}'`
+- ` curl -Method PUT -Uri "http://localhost:8080/api/tasks/1" -Headers @{"Content-Type"="application/json"} -Body '{"title":"Выучить chi глубже","done":true}'` тестирование обновления
 
 ![CRUD UPDATE](./photos/CRUD_update.png)
 
-- ` curl -Method DELETE -Uri "http://localhost:8080/api/tasks/1"`
+- ` curl -Method DELETE -Uri "http://localhost:8080/api/tasks/1"` тестирование удаления
 
 ![CRUD DELETE](./photos/CRUD_delete.png)
 
